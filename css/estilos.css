@@ -222,3 +222,30 @@ footer .container {
   height: 20px;
   text-indent: -9999px;
 }
+.menu-opcoes a:hover {
+  color: #007dc6;
+}
+.menu-opcoes a:active {
+  color: #867dc6;
+}
+.menu-departamentos li ul	{
+  display:	none;
+}
+.menu-departamentos li:hover ul	{
+  display:	block;
+}
+.menu-departamentos ul ul li	{
+  background-color: #DCDCDC;
+}
+.menu-departamentos li li a::before {
+  content:"-";
+}
+.menu-departamentos li li a:before	{
+  content: '\272A';
+  padding-right: 3px;
+}
+.painel h2:before	{
+  content: '\2756';
+  padding-right: 5px;
+  opacity: 0.4;
+}
