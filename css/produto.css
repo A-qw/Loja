@@ -61,3 +61,35 @@ label[for="azul"]::after {
   font-style: italic;
   margin-bottom: 1em;
 }
+.produto legend {
+  display: block;
+  font: bold 0.93m/2.5 Arial;
+  text-transform: uppercase;
+}
+  .comprar {
+    background: #91BD3C;
+    border: none;
+    color:#333;
+    font-size: 1.4em;
+    text-transform:uppercase;
+    box-shadow:0 1px 3px;
+    display: block;
+    padding: 0.5em 1em;
+    margin: 1em 0;
+  }
+  .cores label::after {
+    border: 6px solid rgba(0,0,0,0);
+    transition: 1s;
+  }
+  .cores label::hover::after {
+    border: 6px solid rgba(0,0,0,1);
+  }
+  .cores label::after {
+    cursor: pointer;
+  }
+  @media (min-width: 600px) {
+    img {
+      float: left;
+    }
+  }
+    
